@@ -1,0 +1,110 @@
+[
+  {
+    "key": "cmd+u",
+    "command": "editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editorScroll",
+    "args": {
+      "to": "down",
+      "by": "halfPage"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "editorScroll",
+    "args": {
+      "to": "up",
+      "by": "halfPage"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+escape",
+    "command": "workbench.action.terminal.kill"
+  },
+  {
+    "key": "cmd+k p",
+    "command": "workbench.action.files.copyPathOfActiveFile"
+  },
+  {
+    "key": "cmd+;",
+    "command": "workbench.action.debug.stepInto",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "shift+cmd+;",
+    "command": "workbench.action.debug.stepOut",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "cmd+'",
+    "command": "workbench.action.debug.stepOver",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "workbench.action.debug.continue",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "shift+cmd+\\",
+    "command": "workbench.action.debug.pause",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "cmd+l",
+    "command": "macros.lineSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+shift+[",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+shift+]",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+o",
+    "command": "macros.almostRunFileInTerm",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+o",
+    "command": "-workbench.action.files.openFileFolder"
+  },
+  {
+    "key": "cmd+k o",
+    "command": "copyRelativeFilePath",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k o",
+    "command": "-workbench.action.files.showOpenedFileInNewWindow"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "workbench.view.scm"
+  },
+]
+
